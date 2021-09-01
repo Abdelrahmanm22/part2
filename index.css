@@ -1,0 +1,112 @@
+.container{
+    width: 1000px;
+    height: 370px;
+    /* background: red; */
+    margin: auto;
+    overflow: auto;
+    margin-top: 30px;
+    
+}
+
+.size{
+    width: 20%;
+    height: 90%;
+    float: left;
+    margin-right: 20px;
+    /* border: rgb(224, 181, 174); */
+    border-style: groove;
+    border-radius: 20px;
+    overflow: hidden;
+}
+
+.up{
+    width: 100%;
+    height: 66.67%;
+    /* background: orange; */
+    position: relative;
+    overflow: hidden;
+}
+.down{
+    width: 100%;
+    height: 33.33%;
+    /* background: rgb(250, 248, 248); */
+    position: relative;
+    /* overflow: hidden; */
+}
+.up img{
+    width: 100%;
+    height: 100%;
+    
+    border-radius: 20px;
+    border: none;
+}
+.text h4{
+    text-align: center;
+    color: black;
+    font-family: sans-serif;
+}
+.icon{
+    width: 150px;
+    height: 43px;
+    /* background: red; */
+    position: absolute;
+    left: 35px;
+    bottom: -43px;
+    transition:  0.7s;
+    
+
+}
+.up:hover .icon{
+    bottom: 40px;
+    
+}
+ 
+.fas{
+    color: rgb(37, 35, 35);
+    margin-left: 6px;
+    margin-top: 10px;
+    margin-right: 3px;
+    padding: 10px;
+    clip-path: circle();
+    background: rgb(240, 239, 238);
+}
+.far{
+    color: rgb(37, 35, 35);
+    margin-left: 6px;
+    margin-top: 10px;
+    margin-right: 2px;
+    padding: 12px;
+    clip-path: circle();
+    background: rgb(240, 239, 238);
+}
+.fa-exchange-alt:hover{
+    background: rgb(233, 45, 82);
+}
+.fa-search-plus:hover{
+    background: rgb(233, 45, 82);
+}
+.fa-heart:hover{
+    background: rgb(233, 45, 82);
+}
+.down button{
+    width: 150px;
+    height: 10px;
+    position: absolute;
+    padding: 10px 20px 30px 15px;
+    border: none;
+    border-radius: 40px;
+    bottom: -40px;
+    left: 20px;
+    transition: 0.7s;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font: 1em sans-serif;
+    font-size: larger;
+}
+.down:hover button{
+    bottom: 30px;
+    background: rgb(233, 45, 82);
+    color: white;
+}
+
+
+ 
